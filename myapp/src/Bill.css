@@ -1,0 +1,37 @@
+/* Bill.css */
+.bill-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  min-height: 90vh; /* Ensure it takes full viewport height */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(200, 137, 137, 0.1);
+  page-break-inside: avoid;
+  page-break-after: always;
+}
+
+.bill-main {
+  flex: 1; /* Allows this section to expand and fill available space */
+  margin: 20px 0; /* Space between items and other sections */
+}
+.print-button {
+  display: block;
+  margin: 20px auto; /* Center horizontally */
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.print-button:hover {
+  background-color: darkblue;
+}
+
+

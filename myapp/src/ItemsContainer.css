@@ -1,0 +1,39 @@
+.items-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1fr 1fr 1fr; /* Adjust column sizes */
+    gap: 10px; /* Space between columns */
+    padding: 5px;
+    border: 2px solid #ccc; /* Border around the container */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Background color */
+}
+
+.items-header, .items-row {
+    display: contents; /* Allow grid children to fill the grid columns */
+}
+
+.items-header {
+    font-weight: bold;
+    border-bottom: 2px solid #000; /* Bold border under the header */
+}
+
+.items-row:nth-child(even) {
+    background-color: #120101; /* Alternating row background color */
+}
+
+.item-field {
+    padding: 5px;
+    text-align: left; /* Center-align text */
+}
+.item-field.siNo{
+    padding: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: Center; /* Align price and total to the right */
+}
+
+.item-field.price, .item-field.total {
+    text-align: left; /* Align price and total to the right */
+}

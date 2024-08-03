@@ -1,0 +1,45 @@
+
+.invoice-footer {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    padding: 5px; /* Padding around the footer */
+    border-top: 0px solid #ccc; /* Border at the top of the footer */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Optional: Background color for the footer */
+    border: 2px solid whites; /* Border around the container */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white;
+}
+
+.footer-signatures {
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-between; /* Distribute space between signatures */
+    margin-bottom: 5px; /* Space between signatures and message */
+}
+.signature :first-child{
+   text-align: left;
+   margin-right: 50px;
+}
+.signature :last-child{
+    text-align: left;
+ }
+ 
+
+.signature-line {
+    border-top: 1px solid #000; /* Line for signature */
+    margin-bottom: 1px;
+    margin-right: 50px; /* Space below the signature line */
+    width: 4cm; /* Fixed width for the signature line */
+    height: 1px; /* Line height */
+}
+
+.date-line {
+    margin-top: 1px; /* Space above the date */
+    height: 1px; /* Line height */
+}
+
+.footer-message {
+    text-align: center;
+    font-weight: bold; /* Center-align the footer message */
+}

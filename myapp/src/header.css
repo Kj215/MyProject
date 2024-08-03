@@ -1,0 +1,42 @@
+
+.header {
+    background-color: #fff; /* Optional: Background color for the header */
+    padding: 10px; /* Padding inside the header */
+    z-index: 1000; background-color: #fff;
+    padding: 5px 5px;
+    text-align: center;
+    margin: auto;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000;
+  }
+
+.header-title {
+    margin: 0;
+    font-size: 2.5em;
+    color: #1e90ff;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+}
+
+.logo-small {
+    font-size: 0.5em;
+    vertical-align: super;
+}
+
+.header-subtitle {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #564d4d;
+}
+
+.header-contact {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+}
+.header-logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
