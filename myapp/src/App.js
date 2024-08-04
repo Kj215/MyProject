@@ -4,6 +4,8 @@ import Bill from './Bill';
 import ReactToPrint from 'react-to-print';
 import './index.css';
 import { CustomerProvider } from './CustomerContext';
+import CustomerForm from './CustomerInfoForm';
+import ItemForm from './ItemForm';
 
 // Sample customer details
 const customerDetails = {
@@ -20,7 +22,7 @@ const App = () => {
   return (
     <CustomerProvider customerDetails={customerDetails}>
     <div>
-      <Bill ref ={componentRef}/>
+    <ItemForm />
     </div>
     </CustomerProvider>
   );
