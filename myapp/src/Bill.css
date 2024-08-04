@@ -6,7 +6,7 @@
   min-height: 90vh; /* Ensure it takes full viewport height */
   margin: auto;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(200, 137, 137, 0.1);
